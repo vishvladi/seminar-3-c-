@@ -6,14 +6,22 @@ int i = 0;
 while(i<array.Length)
 {
     array[i]= new Random().Next(1, 10);
+    
+    Console.Write(array[i]+" ");
+     
+    
+     array[i]*=-1;
+     Console.Write(array[i]+" ");
+    
+ 
     i++;
 }
-i=0;
-while(i<array.Length)
-{
-  Console.Write($"{array[i]}"+" ");
-  i++;  
-}
+
+
+  
+    
+ 
+ 
  
 
 
